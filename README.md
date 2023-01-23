@@ -18,6 +18,7 @@ model = models.detection.fasterrcnn_resnet50_fpn(weights='COCO_V1')
 in_features = model.roi_heads.box_predictor.cls_score.in_features
 model.roi_heads.box_predictor = models.detection.faster_rcnn.FastRCNNPredictor(in_features, num_classes)
 ```
-### Faster R-CNN
-<img width="200" src="https://user-images.githubusercontent.com/63842546/214036050-8b37f3dd-e75f-4d70-bc39-421ccca56dc6.png"/>
+#### Faster R-CNN
+<img width="300" src="https://user-images.githubusercontent.com/63842546/214036050-8b37f3dd-e75f-4d70-bc39-421ccca56dc6.png"/>
 
+## Result
