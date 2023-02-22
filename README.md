@@ -10,7 +10,7 @@ AI model detecting whether people are wearing face mask or not
 
 ## Model
 ### Predict face mask and Create bounding box
-
+ 
 ```python
 num_classes = 3
 model = models.detection.fasterrcnn_resnet50_fpn(weights='COCO_V1')
